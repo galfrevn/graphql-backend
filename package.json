@@ -1,0 +1,26 @@
+{
+  "name": "graphql-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.6.7",
+    "apollo-server-express": "^3.6.7",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "graphql": "^16.3.0",
+    "graphql-upload": "^13.0.0",
+    "mongoose": "^6.2.10",
+    "mongoose-unique-validator": "^3.0.0",
+    "nodemon": "^2.0.15",
+    "uuid": "^8.3.2"
+  }
+}
